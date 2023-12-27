@@ -18,6 +18,7 @@ public class TestJUnit {
     public void testSubtract(){
         Utils utils = new Utils();
         System.out.println("Testing testSubtract...");
-        assertEquals(4, utils.Subtract(8, 4));
+        assertEquals(4, utils.Subtract(6, 2));
+        assertEquals(12, utils.Subtract(8, -4));
     }
 }
