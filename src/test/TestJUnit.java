@@ -3,12 +3,14 @@ package test;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import main.Utils;
 
 
 public class TestJUnit {
     @Test
     public void testAddition(){
+        Utils utils = new Utils();
         System.out.println("Testing testAddition...");
-        assertEquals(5, 5);
+        assertEquals(4, utils.Add(2, 2));
     }
 }
