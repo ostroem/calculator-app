@@ -8,16 +8,16 @@ import main.Utils;
 
 public class TestJUnit {
     @Test
-    public void testAddition(){
+    public void testAdd(){
         Utils utils = new Utils();
-        System.out.println("Testing testAddition...");
+        System.out.println("Testing testAdd...");
         assertEquals(4, utils.Add(2, 2));
     }
 
     @Test
-    public void testSubtraction(){
+    public void testSubtract(){
         Utils utils = new Utils();
-        System.out.println("Testing testSubtraction...");
-        assertEquals(4, -2);
+        System.out.println("Testing testSubtract...");
+        assertEquals(4, utils.Subtract(8, 4));
     }
 }
