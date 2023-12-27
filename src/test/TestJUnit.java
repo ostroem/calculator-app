@@ -43,4 +43,13 @@ public class TestJUnit {
         assertEquals(9, utils.Divide(18, 2));
         assertEquals(-12, utils.Divide(-36, 3));
     }
+    @Test
+    public void testRemainder(){
+        Utils utils = new Utils();
+        System.out.println("Testing testRemainder...");
+        assertEquals(2, utils.Remainder(15, 13));
+        assertEquals(5, utils.Remainder(26, 21));
+        assertEquals(8, utils.Remainder(17, 9));
+        assertEquals(-8, utils.Remainder(-2, 3));
+    }
 }

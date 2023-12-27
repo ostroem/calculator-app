@@ -13,4 +13,7 @@ public class Utils {
     public int Divide(int a, int b){
         return a / b;
     }
+    public int Remainder(int a, int b){
+        return a % b;
+    }
 }
